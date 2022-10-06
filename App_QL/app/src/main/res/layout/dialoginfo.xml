@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_dialog"
+    android:layout_height="350dp">
+    <TextView
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Giới thiệu về ứng dụng"
+        android:gravity="center"
+        android:textColor="#142327"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+
+            android:textColor="#49484B"
+            android:text="Tên ứng dụng:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/txtTennv"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#49484B"
+            android:text="Quản lý nhân viên"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+
+            android:textColor="#49484B"
+            android:text="Phiên bản:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#49484B"
+            android:text="xxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+
+            android:textColor="#49484B"
+            android:text="Chứng chỉ:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#49484B"
+            android:text="xxxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

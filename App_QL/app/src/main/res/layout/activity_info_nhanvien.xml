@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityInfoNhanvien">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarNhanvien"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.Toobar"
+        app:title="Thông Tin"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2B90DE"
+        app:titleTextColor="#FFFFFF" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#142327"
+                android:textSize="35dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Thông tin nhân viên"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#49484B"
+                    android:text="Tên nhân viên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtTennv"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#49484B"
+                    android:text="Giới tính:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtgioitinh"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:layout_marginLeft="20dp"
+                    android:text="Điện thoại:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtDienthoai"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="sdt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:layout_marginLeft="20dp"
+                    android:text="Số CMND/CCCD:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtCmnd_Cccd"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="cmnd/cccd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:layout_marginLeft="20dp"
+                    android:text="Địa chỉ:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtDiahci"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="diachi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="Ngày sinh:"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtNgaysinh"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="date of birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:layout_marginLeft="20dp"
+                    android:text="Loại nhân viên:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtLoainv"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="Loạinv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:layout_marginLeft="20dp"
+                    android:text="Chức vụ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/txtChucvu"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#49484B"
+                    android:text="Chức vụ:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

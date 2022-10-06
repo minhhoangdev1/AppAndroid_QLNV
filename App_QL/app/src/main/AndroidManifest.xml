@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_ql">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_QL">
+        <activity
+            android:name=".ActivityUpdateHD"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityXemHopDong"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdatePb"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddPB"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPhongban"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLapHopDong"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityChucvu"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityUpdateNhanvien"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityInfoNhanvien"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddNhanvien"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdateChucvu"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNhanvien"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddChucvu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

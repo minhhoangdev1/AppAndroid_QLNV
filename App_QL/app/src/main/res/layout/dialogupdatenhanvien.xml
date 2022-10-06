@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_dialog"
+    android:layout_height="150dp">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Cập nhật nhân viên này?"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="#142327"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnYesupdatenhanvien"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#85C6FF"
+            android:gravity="center"
+            android:text="Yes"
+            android:textColor="#26283D" />
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/btnNoupdatenhanvien"
+            android:textColor="#26283D"
+            android:backgroundTint="#85C6FF"
+            android:text="No"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroud_listviewchucvu"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtChucvu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chức Vụ"
+            android:textColor="#142327"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_marginTop="25dp"
+        android:id="@+id/UpdateChucvu"
+        android:layout_width="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_height="50dp"/>
+    <ImageButton
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/DelateChucvu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/back.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/backgroud_button_add.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/backgroud_listviewchucvu.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/backgroud_test.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/background_button.xml" value="0.2703125" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/boder_buttob_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/boder_radius_edittext.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/border_dialog.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.152" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.2703125" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/drawable/test_exit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_add_chucvu.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_add_nhanvien.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_ghichu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_info_chucvu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_info_nhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_nhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_update_chucvu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/activity_update_nhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogadd.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogaddnv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogdeletechucvu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogdeletenhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogexit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialoginfo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogupdatechucvu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/dialogupdatenhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/listviewchucvu.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/listviewghichu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/listviewnhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/layout/test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/menu/menu_search.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/menu/menuadd.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/App_QL/app/src/main/res/menu/menuaddnhanvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/background_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/bg_home.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/bg_main.xml" value="0.2625" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/boder_buttob_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/button_home.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_copyright_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_house_24_2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_supervisor_account_24_2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_baseline_wysiwyg_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/drawable/vie_bg.xml" value="0.2625" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_add_chucvu.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_add_nhanvien.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_add_pb.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_chucvu.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_chucvu2.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_info_chucvu.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_info_nhanvien.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_lap_hop_dong.xml" value="0.23557692307692307" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_member.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_nhanvien.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_phongban.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_update_chucvu.xml" value="0.24728260869565216" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_update_hd.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_update_nhanvien.xml" value="0.22418478260869565" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_update_pb.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/activity_xem_hop_dong.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogadd.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogaddnv.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogaddpb.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogdeletechucvu.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogdeletepb.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialoginfo.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogupdatechucvu.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogupdatehd.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogupdatenhanvien.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/dialogupdatepb.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/list_spinner.xml" value="0.21965579710144928" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/list_spinner_phongban.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/listviewchucvu.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/listviewnhanvien.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/layout/listviewphongban.xml" value="0.23505434782608695" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/menu/menuadd.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/menu/menuaddnhanvien.xml" value="0.25" />
+        <entry key="..\:/Android/myProjects/Doanddnc/App_QL/app/src/main/res/menu/search.xml" value="0.24635416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

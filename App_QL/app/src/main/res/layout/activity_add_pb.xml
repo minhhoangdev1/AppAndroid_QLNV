@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityAddPB">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAddPb"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.Toobar"
+        app:title="Thêm Phòng Ban"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2B90DE"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:text=" Thông Tin Phòng Ban"
+        android:gravity="center"
+        android:textColor="#142327"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layouttext"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Tên phòng ban"
+        app:boxCornerRadiusBottomStart="18dp"
+        app:boxCornerRadiusTopEnd="18dp"
+        app:boxCornerRadiusTopStart="18dp"
+        app:boxCornerRadiusBottomEnd="18dp"
+        android:padding="16dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTenPb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnThemPb"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgroud_button_add"
+        android:text="Thêm"
+        android:textColor="#142327"
+        android:textSize="18dp" />
+
+</LinearLayout>

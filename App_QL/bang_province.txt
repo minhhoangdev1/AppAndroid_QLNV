@@ -1,0 +1,19 @@
+ //bảng tỉnh
+    private  static String TABLE_TINH="tinh";
+    private  static String ID_TINH="idtinh";
+    private  static String NAME_TINH="nametinh";
+ //tạo bảng tỉnh
+    private String SQLQuerytinh="CREATE TABLE " + TABLE_TINH + "(" + ID_TINH + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + NAME_TINH + " TEXT )";
+  //add tinh
+    public  void  insertTinh(tinh tinh){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues values=new ContentValues();
+        values.put(NAME_TINH,tinh.getName_tinh());
+        db.insert(TABLE_TINH,null,values);
+    }
+    public  Cursor getDataTinh(){
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor=db.rawQuery("SELECT * FROM "+ TABLE_TINH ,null);
+        return  cursor;
+    }

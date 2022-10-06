@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityAddNhanvien">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarNhanvien"
+        android:theme="@style/ThemeOverlay.Toobar"
+        android:layout_width="match_parent"
+        app:title="Thêm Nhân Viên"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2B90DE"
+        app:titleTextColor="#FFFFFF" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text=" Thông Tin Nhân viên"
+                android:gravity="center"
+                android:textColor="#142327"
+                android:textSize="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Tên nhân viên"
+                android:padding="5dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTenNhanvien"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Giới tính"
+                android:textColor="#535353"
+                android:textSize="20dp" />
+
+            <RadioGroup
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radiobtnNam"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    android:text="Nam"
+                    android:textColor="#535353"
+                    android:textSize="19dp" />
+
+                <RadioButton
+                    android:id="@+id/radiobtnNu"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Nữ"
+                    android:textColor="#535353"
+                    android:textSize="19dp" />
+
+            </RadioGroup>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Điện thoại"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editDienthoainv"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="CMND/CCCD"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editCMND_CCCD"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Địa chỉ"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editDiachi"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TableLayout
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TableRow
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layouttext3"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:hint="Ngày sinh"
+                        android:padding="5dp"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusTopStart="10dp">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editNgaysinh"
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/btnNgaysinh"
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+                        android:text="..."></Button>
+
+                </TableRow>
+            </TableLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="LoạiNV"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editLoainv"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnThemNhanvien"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroud_button_add"
+                android:text="Tiếp tục"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

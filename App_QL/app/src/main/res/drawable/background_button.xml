@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Hiển thị khi không nhấn nút button-->
+<item android:state_pressed="false">
+    <shape>
+        <!--màu nền button-->
+        <solid android:color="#FFFFFF"></solid>
+        <!--border-radius-->
+        <corners android:topRightRadius="60dp"
+            android:topLeftRadius="20dp"
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="20dp"
+            ></corners>
+    </shape>
+</item>
+</selector>

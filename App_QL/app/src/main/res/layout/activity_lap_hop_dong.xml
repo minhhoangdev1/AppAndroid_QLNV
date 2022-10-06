@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityLapHopDong">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHopdong"
+        android:theme="@style/ThemeOverlay.Toobar"
+        android:layout_width="match_parent"
+        app:title="Lập Hợp Đồng"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2B90DE"
+        app:titleTextColor="#FFFFFF" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text=" Thông Tin Hợp Đồng"
+                android:gravity="center"
+                android:textColor="#142327"
+                android:textSize="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Tên hợp đồng"
+                android:padding="5dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTenhopdong"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Nội dung"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editNoidunghd"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TableLayout
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TableRow
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layouttext3"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:hint="Ngày lập hợp đồng"
+                        android:padding="5dp"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusTopStart="10dp">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editNgayLHD"
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/btnLHD"
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content"
+                        android:text="..."></Button>
+
+                </TableRow>
+            </TableLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Thời hạn"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editThoihan"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Người ký"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                android:padding="5dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editNguoiky"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TableLayout
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <TableRow
+                    android:layout_width="354dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:padding="15dp"
+                        android:text="Chọn phòng ban: "/>
+
+                    <Spinner
+                        android:id="@+id/spinner_pb"
+                        android:layout_width="171dp"
+                        android:layout_height="53dp"
+                        android:padding="5dp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnTaoHopDong"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroud_button_add"
+                android:text="Tạo hợp đồng"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
