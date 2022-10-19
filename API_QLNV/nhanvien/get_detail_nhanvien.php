@@ -1,5 +1,5 @@
 <?php
-    include_once('../config/config.php');
+   include_once('../config/config.php');
    if(isset($_POST['id_nv'])){
         $query=mysqli_query($mysqli,"SELECT * FROM tbl_nhanvien WHERE id_nv=".$_POST['id_nv']."");
         if($query){
